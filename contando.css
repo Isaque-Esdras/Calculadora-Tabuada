@@ -1,0 +1,50 @@
+body{
+    background: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#sessao{
+    background: rgb(117, 211, 206);
+    box-shadow: 10px 15px 5px black;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    display: flexbox;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font: normal 16pt italic;
+    }
+
+div#divIn{
+    text-align: center;
+}
+
+section#sessao2{
+    background: rgb(117, 211, 206);
+    box-shadow: 10px 15px 5px black;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    display:flexbox;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font: normal 16pt italic;
+}
+
+select{
+    width: 350px;
+    margin: 6px;
+    font: normal 14pt italic;
+}
+
+input#inpu{
+    width: 50px;
+}
+
+input#inpp{
+    width: 50px;
+}

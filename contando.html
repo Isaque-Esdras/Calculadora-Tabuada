@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contando.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+   
+    <section id="sessao">
+        <h1>Calculadora</h1>
+    <div id="divIn">
+        <input type="number" name="num" id="inp1" placeholder="Digite um valor">
+        <input type="number" name="nume" id="inp2" placeholder="Digite um valor">
+    </div>
+    
+    <h3>Opções</h3>
+    <div>
+        <label for="">Soma</label>
+        <input type="radio" name="in" id="rad1" checked>
+        <label for="">Subtração</label>
+        <input type="radio" name="in" id="rad2" >
+        <label for="">Multiplicação</label>
+        <input type="radio" name="in" id="rad3" >
+        <label for="">Divisão</label>
+        <input type="radio" name="in" id="rad4" >
+    </div>
+    <div><button id="but" onclick="verificar()">Verificar</button></div>
+    <div id="resultado"><h2></h2></div>
+    </section>
+
+    <section id="sessao2">
+        <h1>Tabuada</h1>
+
+        <select name="sec" id="sec" size="10">
+            <option value="op"></option>
+        </select>
+        
+        <div>
+            <label for="dig">Digite um número:</label>
+            <input type="number" name="inp" id="inpu">
+            
+        </div>
+        <button id="but2" onclick="tabuada()">Verificar</button>
+    </section>
+    <script src="./contando.js"></script>
+</body>
+</html>
